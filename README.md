@@ -40,8 +40,9 @@ matplotlib.style.use('ggplot')
 
 **Bold** and _Italic_ and `Code` text
 
-[Link](https://gmail.com) and ![Image](src)
+
 ```
+[Link](https://www.linkedin.com/in/bisma-butt-/) and ![Image](src)
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
