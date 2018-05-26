@@ -4,15 +4,15 @@ You can use the [editor on GitHub](https://github.com/bismab/for_blog/edit/maste
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Project 1
+## Project 1
 
-[CO2](https://bismab.github.io/co2-pattern-analysis-5states/)
+The data analysis study will explore the temperature increase trends and compare them to emission patterns for the five most populated states in the USA; California, Texas, New York, Illinois and Florida.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Two separate time-series datasets were used for the purpose of the project. The first dataset, “GlobalLandTemperaturesByState.csv” or DS1 (Appendix A), consisted of average monthly temperatures dated from 1855 to 2013 from states across the globe. The second dataset, “CO2 Emissions by State.csv” or DS2 (Appendix A), consisted of total emissions by type, average carbon footprint per person and total population, dated from 1960 to 2001.
+
+### Importing libraries & functions
 
 ```markdown
-*Importing libraries & functions* 
-
 import pandas as pd
 import statsmodels.api as sm
 import numpy as np
@@ -40,7 +40,7 @@ matplotlib.style.use('ggplot')
 
 **Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
+[Link](http://www.gmail.com) and ![Image](src)
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
