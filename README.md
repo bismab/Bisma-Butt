@@ -11,11 +11,26 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
 ```markdown
-Syntax highlighted code block
+### Importing libraries & functions 
 
-# Header 1
-## Header 2
-### Header 3
+import pandas as pd
+import statsmodels.api as sm
+import numpy as np
+pd.options.display.max_rows = 15
+import datetime as dt
+from __future__ import division
+from pandas import Series, DataFrame
+import matplotlib.pyplot as plt
+import matplotlib.dates as mdates
+import numpy.random as rndn
+from __future__ import division
+from numpy.random import randn
+import os
+np.random.seed(12345)
+plt.rc('figure', figsize=(10, 6))
+np.set_printoptions(precision=4)
+import matplotlib
+matplotlib.style.use('ggplot')
 
 - Bulleted
 - List
