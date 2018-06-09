@@ -30,13 +30,6 @@ from sklearn.preprocessing import LabelEncoder
 from sklearn.preprocessing import Imputer
 from sklearn.preprocessing import OneHotEncoder
 ```
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
 **Bold** and _Italic_ and `Code` text
 
 **Metadata**
